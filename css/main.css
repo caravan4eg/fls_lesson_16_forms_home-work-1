@@ -1,0 +1,139 @@
+.make-appointment {
+	position: relative;
+	max-width: 100vw;
+	max-height: 980px;
+	background:
+		url('../img/make-appointment/blob2.svg') 0 0 no-repeat,
+		url('../img/make-appointment/circles.svg') 100px 239px/335px 566px no-repeat,
+		url('../img/make-appointment/bg.png') 0 0/cover no-repeat;
+	padding: 130px 0 210px 210px;
+
+}
+
+.make-appointment__form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 585px;
+	background: #5D62B5;
+	border-radius: 40px;
+	padding: 76px 57px;
+	margin-right: 111px;
+	filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
+}
+
+.make-appointment__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 117%;
+	color: #FFFFFF;
+	margin: 0px 0px 43px 0px;
+}
+
+.appointment-row {
+	display: flex;
+	margin: 0px -23px;
+}
+
+.appointment-row__item {
+	flex: 0 0 50%;
+	padding: 12px;
+}
+
+.appointment-row__message {
+	padding: 12px;
+}
+
+.make-appointment__input {
+	line-height: 1.5;
+	background: #5D62B5;
+	outline: 2px solid #FFFFFF;
+	border-radius: 10px;
+	padding: 17px 24px;
+}
+
+.make-appointment__input::placeholder {
+	letter-spacing: 0.15px;
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.appointment-row__message {
+	padding: 12px;
+}
+
+.make-appointment__message {
+
+	min-width: 445px;
+	background: #5D62B5;
+	outline: 2px solid #FFFFFF;
+	border-radius: 10px;
+	width: 100%;
+	height: 180px;
+	padding: 15px;
+	resize: vertical;
+}
+
+.make-appointment__message::placeholder {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.15px;
+	color: #FFFFFF;
+}
+
+.make-appointment__button {
+	background: #F2726F;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	border-radius: 2px;
+	padding: 9px 20px;
+	margin: 30px 12px 0px 0px;
+	align-self: end;
+}
+
+.message-row {
+	margin: 0px auto;
+}
+
+.make-appointment__body {}
+
+.body-appointment {
+	position: absolute;
+	top: 296px;
+	left: 906px;
+	color: #FFFFFF;
+}
+
+.body-appointment__title {
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 1.2;
+	text-align: center;
+	max-width: 324px;
+	margin: 0px 0px 46px 0px;
+}
+
+.body-appointment__digit {
+	font-weight: 900;
+	font-size: 96px;
+	line-height: 58%;
+	text-align: center;
+	margin: 0px 0px 46px 0px;
+}
+
+.body-appointment__subtitle {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 1.37;
+	text-align: center;
+}
